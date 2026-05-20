@@ -26,6 +26,6 @@ I believe in learning by building — every project here reflects a concept I've
 
 | Project  | Description| Tools    |
 | -------- | --------   | -------- |
-| Highly Available Web Infrastructure| Cell 2   | Cell 2e
+| Highly Available Web Infrastructure|Provisioned a production-style AWS environment with acustom VPC, public/private subnets across two AZs, NATGateways, an internet-facing ALB, and an Auto ScalingGroup running Apache web servers — all managed withTerraform| Cell 2e
 | Cell 3   | Cell 4   | Cell 2   |
 
