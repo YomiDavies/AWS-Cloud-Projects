@@ -24,7 +24,7 @@ I believe in learning by building — every project here reflects a concept I've
 
 
 
- # | Project | Description| Tools |
+  | Project | Description| Tools |
   | -------- | -------- | -------- |
 01| Highly Available WebInfrastructure   | Cell 2   | Cell 2   |
   | Cell 3   | Cell 4   | Cell 2   |
