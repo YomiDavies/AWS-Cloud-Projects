@@ -23,6 +23,7 @@ I believe in learning by building — every project here reflects a concept I've
 
 
 
+## Projects
 
 | Project  | Description| Tools    |
 | -------- | --------   | -------- |
