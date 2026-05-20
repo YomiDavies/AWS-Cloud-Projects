@@ -27,6 +27,7 @@ I believe in learning by building — every project here reflects a concept I've
 
 | Project  | Description| Tools    |
 | -------- | --------   | -------- |
+| cell 1   | cell 2     | cell 3   |
 | Highly Available Web Infrastructure|Provisioned a production-style AWS environment with a custom VPC, public/private subnets across two AZs, NAT Gateways, an internet-facing ALB, and an Auto Scaling Group running Apache web servers — all managed with Terraform | Terraform, AWSVPC, ALB, ASG,EC2, IAM, SSM
 | Cell 3   | Cell 4   | Cell 2   |
 
