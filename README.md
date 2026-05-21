@@ -28,6 +28,6 @@ I believe in learning by building — every project here reflects a concept I've
 | Project  | Description| Tools    |
 | -------- | --------   | -------- |
 | Event-Announcement-System  | A notification platform that enables users to create events and real-time updats via email       | S3, Lambda,SNS, API Gateway, IAM roles and Policies |
-| Highly Available Web Infrastructure|Provisioned a production-style AWS environment with a custom VPC, public/private subnets across two AZs, NAT Gateways, an internet-facing ALB, and an Auto Scaling Group running Apache web servers — all managed with Terraform | Terraform, AWSVPC, ALB, ASG,EC2, IAM, SSM
+| Multi-tier Web Application  with Terraform|Provisioned a production-style AWS environment with a custom VPC, public/private subnets across two AZs, NAT Gateways, an internet-facing ALB, and an Auto Scaling Group running Apache web servers — all managed with Terraform | Terraform, AWSVPC, ALB, ASG,EC2, IAM, SSM
 | Cell 3   | Cell 4   | Cell 2   |
 
