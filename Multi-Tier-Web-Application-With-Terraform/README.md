@@ -14,5 +14,15 @@ This project provisions a fully automated, highly available, and auto-scaled web
 
 | Resources | Name | Description |
 | -------- | -------- | -------- |
+| VPC      | Custom_VPC | Custom VPC with CIDR 10.0.0.0/16, DNS hostnames enabled   |
+| Row 2    | Data     | More     |
+| Row 1    | Data     | More     |
+| Row 2    | Data     | More     |
+| Row 1    | Data     | More     |
+| Row 2    | Data     | More     |
+| Row 1    | Data     | More     |
+| Row 2    | Data     | More     |
+| Row 1    | Data     | More     |
+| Row 2    | Data     | More     |
 | Row 1    | Data     | More     |
 | Row 2    | Data     | More     |
