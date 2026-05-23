@@ -37,5 +37,7 @@ Instances in private subnets — EC2 instances are never directly exposed to the
 One NAT Gateway per AZ — ensures private instances in each AZ can reach the internet independently. If one AZ goes down, the other continues to function.
 
 SSM instead of SSH — no bastion host or key pairs needed. Instances are accessed securely via AWS Systems Manager Session Manager.
+
 ELB health checks on ASG — the ASG uses ALB health checks to determine instance health, automatically replacing unhealthy instances.
+
 Variables-driven configuration — all static values are declared in variables.tf and assigned in terraform.tfvars following Terraform best practices.
