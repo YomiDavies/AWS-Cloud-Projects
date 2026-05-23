@@ -29,6 +29,11 @@ This project provisions a fully automated, highly available, and auto-scaled web
 | ALB Listener    | web_listener    | Forwards HTTP port 80 traffic to WebTG     |
 | Launch Template    | WebLT     | Amazon Linux 2023, t3.micro, Apache httpd via user data    |
 | Auto Scaling Group   | ASG    | desired=2, min=1, max=4, ELB health checks, private subnets     |
-| Row 2    | Data     | More     |
-| Row 1    | Data     | More     |
-| Row 2    | Data     | More     |
+
+🔑 Key Design Decisions
+
+Instances in private subnets — EC2 instances are never directly exposed to the internet. All traffic is routed through the ALB.
+One NAT Gateway per AZ — ensures private instances in each AZ can reach the internet independently. If one AZ goes down, the other continues to function.
+SSM instead of SSH — no bastion host or key pairs needed. Instances are accessed securely via AWS Systems Manager Session Manager.
+ELB health checks on ASG — the ASG uses ALB health checks to determine instance health, automatically replacing unhealthy instances.
+Variables-driven configuration — all static values are declared in variables.tf and assigned in terraform.tfvars following Terraform best practices.
