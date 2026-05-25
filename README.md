@@ -30,7 +30,7 @@ I believe in learning by building — every project here reflects a concept I've
 | Event-Announcement-System  | A notification platform that enables users to create events and real-time updates via email       | S3, Lambda, SNS, API Gateway, IAM roles and Policies |
 | Multi-tier Web Application  with Terraform|Provisioned a production-style AWS environment with a custom VPC, public/private subnets across two AZs, NAT Gateways, an internet-facing ALB, and an Auto Scaling Group running Apache web servers — all managed with Terraform | Terraform, AWSVPC, ALB, ASG, EC2, IAM, SSM
 | CI-CD  | create a CICD pipeline that takes code from a local computer and automatically deploys it on AWS cloud   |code deploy. code pipeline, fargate  |
-|Data_Pipeline-for- processing-CSV| a notification platform that enables users to create events and receive real-time updates via email  |S3,   |
+|Data_Pipeline-for- processing-CSV| a notification platform that enables users to create events and receive real-time updates via email  |S3, Lambda, Glue Crawler, Glue Data catalog and Quicksight |
 
 
 
