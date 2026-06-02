@@ -32,7 +32,7 @@ I believe in learning by building — every project here reflects a concept I've
 | CI-CD  | create a CICD pipeline that takes code from a local computer and automatically deploys it on AWS cloud   |code deploy. code pipeline, Fargate  |
 |Data_Pipeline-for- processing-CSV| a notification platform that enables users to create events and receive real-time updates via email  |Amazon S3, AWS Lambda, AWS Glue, and Amazon Quicksight |
 
-|Auto-Scaling Project |              |            |
+|Auto-Scaling Project |  cell 4   |  cell 5  |
 
 
 
