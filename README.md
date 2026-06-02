@@ -31,7 +31,7 @@ I believe in learning by building — every project here reflects a concept I've
 | Multi-tier Web Application  with Terraform|Provisioned a production-style AWS environment with a custom VPC, public/private subnets across two AZs, NAT Gateways, an internet-facing ALB, and an Auto Scaling Group running Apache web servers — all managed with Terraform | Terraform, AWSVPC, ALB, ASG, EC2, IAM, SSM
 | CI-CD  | Created a CICD pipeline that takes code from a local computer and automatically deploys it on AWS cloud   |code deploy. code pipeline, Fargate  |
 |Data_Pipeline-for- processing-CSV| A notification platform that enables users to create events and receive real-time updates via email  |Amazon S3, AWS Lambda, AWS Glue, and Amazon Quicksight |
-|Auto-Scaling Project | Provisioned an auto scaling web application infrastructure on AWS using Terraform. |  cell 5  |
+|Auto-Scaling Project | Provisioned an auto scaling web application infrastructure on AWS using Terraform. |  Terraform, AWSVPC, ALB, ASG, EC2, IAM, SSM |
 
 
 
