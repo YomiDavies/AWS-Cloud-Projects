@@ -1,2 +1,2 @@
 
-![te]Auto Scaling Project/Architecture.png
+![te](Auto Scaling Project/Architecture.png)
